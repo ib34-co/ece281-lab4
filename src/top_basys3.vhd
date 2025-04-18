@@ -83,7 +83,7 @@ begin
             o_clk => slow_clk
         );
         tdm_clk_div: clock_divider 
-        generic map ( k_DIV => 500000 )
+        generic map ( k_DIV => 100000 )
         port map (
             i_clk => clk,
             i_reset => clk_reset,
